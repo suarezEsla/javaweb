@@ -1,0 +1,85 @@
+<html>
+<head>
+<style>
+table{
+background: #fab8b9;
+padding: 10px;
+border: solid 2px #FF0000;
+
+}
+
+td{
+paddubg: 5px 0;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1 style='text-align:center'>Registro</h1>
+<form action="Recoge_datos.jsp" method="POST">
+
+<table width="35%" border="0">
+
+<tr>
+<td width="13%"><label for="nombre">Nombre:</label></td>
+<td width="87%"><input type="text" name="nombre" id="nombre"></td>
+</tr>
+
+
+<tr>
+<td width="13%"><label for="apellido">Apellido:</label></td>
+<td width="87%"><input type="text" name="apellido" id="apellido"></td>
+</tr>
+
+<tr>
+<td width="13%"><label for="usuario">Nombre de usuario:</label></td>
+<td width="87%"><input type="text" name="usuario" id="usuario"></td>
+</tr>
+
+<tr>
+<td width="13%"><label for="contra">Contraseña:</label></td>
+<td width="87%"><input type="password" name="contra" id="contra"></td>
+</tr>
+
+<tr>
+<td><label for="pais">País:</label></td>
+<td><select name="pais" id="pais">
+
+<option>España</option>
+<option>Alemania</option>
+<option>Australia</option>
+<option>Dinamarca</option>
+<option>Ucrania</option>
+<option>Polonia</option>
+
+</select>
+</tr>
+
+<tr>
+
+<td>Tecnologías:</td>
+<td><label>
+<input type="radio" name="tecnologias" value="Java" id="tecnologias_0">Java</label>
+<input type="radio" name="tecnologias" value="JS" id="tecnologias_1">JS</label>
+<input type="radio" name="tecnologias" value="PHP" id="tecnologias_2">PHP</label>
+<input type="radio" name="tecnologias" value="Python" id="tecnologias_3">Phyton</label>
+<input type="radio" name="tecnologias" value="C++" id="tecnologias_4">C++</label>
+
+</tr>
+
+<tr>
+
+<td colspan="2" align="center"><input type="submit" name="button" id="button" value="Enviar"></td>
+
+</tr>
+
+
+</table>
+
+</form>
+
+</body>
+
+</html>
